@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background-color: #272727;
+    padding: 3%;
+    font-family: 'Press Start 2P', cursive;
+}
+/*ASSEMBLAGE DE LA NAV*/
+p {
+    color: #ffff;
+}
+
+#sectionGo {
+    display: none;
+}
+
+
+
+#pokeball {
+    width: 10%;
+    display: flex;
+    margin-right: 2%;
+}
+.name {
+   display: flex;
+
+}
+
+.fullLife {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(115, 230, 0);
+    border: 
+    rgb(115, 230, 0)
+    1px solid;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#pokeball2 {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.name2 {
+   display: flex;
+
+}
+
+.fullLife2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    background-color: rgb(115, 230, 0);
+    border: 
+    rgb(115, 230, 0)
+    1px solid;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.life {
+background-color: rgb(0, 0, 0);
+border: 
+rgb(0, 0, 0)
+1px solid;
+width: 20%;
+}
+#life { border-radius: 0 10px  10px 0;
+}
+#life60 { border-radius: 0 10px  10px 0;
+}
+#life100 { border-radius:  10px 0 0 10px ;
+}
+#life40 { border-radius:  10px 0 0 10px ;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding: 3% 5% 1% 5%;
+}
+
+#nameAndLife {
+    width: 110%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+#nameAndLife2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 110%;
+}
+#pseudo2{
+    display: flex;
+    justify-content: flex-end;
+}
+#parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#topLife2 {
+    display: flex;
+   justify-content: flex-end;
+
+ } 
+
+ #oups {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 60px;
+    font-weight: bold;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+ }
+ #bravo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 60px;
+    font-weight: bold;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+ }
+
+ #rowResultat {
+     display: flex;
+     width: 100%;
+     
+ }
+ #resultatManche {
+    display: none;
+ }
+ #resultat {
+     width: 35%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+#mancheSuivante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 40px;
+    margin-top: 5%;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+#buttonContinu {
+    display: flex;
+    justify-content: center;
+
+}
+ /*ASSEMBLAGE DE SECTION VERSUS*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0 5% 0;
+}
+#vs {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 60px;
+    font-weight: bold;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+#avatar {
+    width: 68%;
+    display: flex;
+    justify-content: flex-end;
+}
+#avatarPc {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+fieldset legend {
+    padding: 2%;
+    color: #ffff;
+    font-family: 'Press Start 2P', cursive;
+    margin-left:  38%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#margField{
+    margin: 0 5% 0 5%;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding: 3% 5% 1% 5%;
+
+}
+
+
+/* GOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+
+#go {
+    color: #ffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 120px;
+    font-weight: bold;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+#gogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#rowGo {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+#slash {padding: 0 3% 0 3%;
+    
+}
+.imgGo {
+display: flex;
+justify-content: center;
+align-items: center;
+    width:150% ;
+   
+}
+#rowFight {
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#eclair {
+    margin: 0 10% 0 10%;
+}
+
+.left {
+  
+    transform: scaleX(-1);
+}
+.all {
+    width:90%;
+}
+#avatarL {
+    display: flex;
+    align-items: flex-start;
+}
+#rowFight {
+    display: flex;
+    justify-content: center
+    
+}
+ #avatarGo {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+#avatarR {
+    display: flex;
+   justify-content: flex-end;
+}

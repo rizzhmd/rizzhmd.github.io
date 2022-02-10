@@ -1,0 +1,64 @@
+.background-img {
+    position: relative;
+    background-image: url("../img/wallpaper-wood.jpg");
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-brown {
+    background: #a26a42;
+}
+
+.bg-wb {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 95%, rgba(162,106,66,1) 100%);
+}
+
+.text-brown {
+    color: #A26A42;
+}
+
+.btn-outline-success{
+    color:#a26a42 !important;
+    border-color:#a26a42 !important;
+}
+
+.btn-outline-success:hover {
+    color: #fff !important;
+    background-color:#a26a42 !important;
+    border-color:#a26a42 !important;
+}
+
+.btn-check:focus+.btn-outline-success,
+.btn-outline-success:focus {
+    box-shadow:0 0 0 .25rem #774d2f !important;
+}
+
+.btn-check:active+.btn-outline-success,
+.btn-check:checked+.btn-outline-success,
+.btn-outline-success.active,
+.btn-outline-success.dropdown-toggle.show,
+.btn-outline-success:active {
+    color:#fff !important;
+    background-color:#a26a42 !important;
+    border-color:#a26a42 !important;
+}
+
+.btn-check:active+.btn-outline-success:focus,
+.btn-check:checked+.btn-outline-success:focus,
+.btn-outline-success.active:focus,
+.btn-outline-success.dropdown-toggle.show:focus,
+.btn-outline-success:active:focus {
+    box-shadow:0 0 0 .25rem #774d2f !important;
+}
+
+.btn-outline-success.disabled,
+.btn-outline-success:disabled {
+    color:#a26a42 !important;
+    background-color:transparent !important;
+}

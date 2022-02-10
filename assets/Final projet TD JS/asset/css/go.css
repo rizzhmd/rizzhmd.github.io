@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    background-color: #272727;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-family: 'Press Start 2P', cursive;
+}
+/*ASSEMBLAGE DE LA NAV*/
+p {
+    color: #ffff;
+}
+
+#sectionGo {
+    display: none;
+}
+
+#index {
+    display: block;
+}
+#sectionAll {
+    display: none;
+}
+
+
+#pokeball {
+    width: 10%;
+    display: flex;
+    margin-right: 2%;
+}
+.name {
+   display: flex;
+
+}
+
+.fullLife {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(115, 230, 0);
+    border: 
+    rgb(115, 230, 0)
+    1px solid;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#pokeball2 {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.name2 {
+   display: flex;
+
+}
+
+.fullLife2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    background-color: rgb(115, 230, 0);
+    border: 
+    rgb(115, 230, 0)
+    1px solid;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.life {
+background-color: rgb(0, 0, 0);
+border: 
+rgb(0, 0, 0)
+1px solid;
+width: 20%;
+}
+#life { border-radius: 0 10px  10px 0;
+}
+#life60 { border-radius: 0 10px  10px 0;
+}
+#life100 { border-radius:  10px 0 0 10px ;
+}
+#life40 { border-radius:  10px 0 0 10px ;
+}
+.choice {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding: 3% 5% 1% 5%;
+}
+
+#nameAndLife {
+    width: 110%;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+#nameAndLife2{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 110%;
+}
+
+#pseudo{
+    text-transform: uppercase;
+    margin: 10px;
+}
+#pseudo2{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase; 
+    margin: 10px;
+}
+#parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#topLife2 {
+    display: flex;
+   justify-content: flex-end;
+
+ } 
+
+ #oups {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 60px;
+    font-weight: bold;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+ }
+ #bravo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 60px;
+    font-weight: bold;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+ }
+
+ #rowResultat {
+     display: flex;
+     width: 100%;
+     
+ }
+ #resultatManche {
+    display: none;
+ }
+ #resultat {
+     width: 35%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+#mancheSuivante {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 50px;
+    margin-top: 5%;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#next {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    margin-top: 23%;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#buttonContinu {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#mancheSuivante:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+#next:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+ /*ASSEMBLAGE DE SECTION VERSUS*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 5% 0;
+}
+#vs {
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 60px;
+    font-weight: bold;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+#avatar {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+#avatarPc {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+fieldset legend {
+    padding: 2%;
+    color: #ffff;
+    font-family: 'Press Start 2P', cursive;
+    margin-left:  38%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+#margField{
+    margin: 0 5% 0 5%;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    padding: 3% 5% 1% 5%;
+
+}
+
+
+/* GOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+
+#go {
+    color: #ffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: large;
+    font-size: 120px;
+    font-weight: bold;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+#gogo {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 300px;
+}
+#rowGo {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slash {
+    padding: 0 3% 0 3%;
+    
+}
+.imgGo {
+display: flex;
+justify-content: center;
+align-items: center;
+    width:210% ;
+   
+}
+#rowFight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eclair {
+    margin: 0 10% 0 10%;
+    width: 14%;
+}
+.all {
+    width:90%;
+}
+#avatarL {
+    display: flex;
+    align-items: flex-start;
+}
+#rowFight {
+    display: flex;
+    justify-content: center
+    
+}
+ #avatarGo {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+
+ #avatarGo img {
+  
+    transform: scaleX(-1);
+}
+#avatarR {
+    display: flex;
+   justify-content: flex-end;
+   width: 13%;
+}
+
+/* style buttons */
+#btnFeu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 5%;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#btnFeu:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+#btnFeuille {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 5%;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#btnFeuille:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+#btnEau {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    padding: 5%;
+    border-radius: 10px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#btnEau:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+#youwin {
+    display: none;
+}
+
+#youloose {
+    display: none;
+}
+
+#returnIndex {
+    padding: 10px 35px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    color: #0B0D24;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+#btnReturn {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+#returnIndex:hover {
+    color: rgb(41, 18, 71);
+    background-color: #bebebe;
+}
