@@ -1,0 +1,72 @@
+body{
+    background-color: #030f06;
+}
+table, th, td {
+    border: 1px solid #030f06;
+  }
+#highScore{
+    display: flex;
+    justify-content: center;
+    color: #0b0d24;
+    
+}
+#tableauScores{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+#scoreDiv{
+    background:#9e66a7;
+    color: white;
+    text-shadow: 1px 1px 2px #e9b31f, 0 0 25px #0b0d24, 0 0 5px #e9b31f;
+    border-style: double;
+    border-color: #e9b31f;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+table{
+    width: 60%;
+    height: 70%;
+}
+#tab1{
+    background-color: #fff;
+    width: 200px;
+}
+#tab2{
+    background-color: #fff;
+}
+#tab3{
+    background-color: #fff;
+}
+#tab4{
+    background-color: #fff;
+}
+#tab5{
+    background-color: #fff;
+}
+#tab6{
+    background-color: #fff;
+}
+#tab7{
+    background-color: #fff;
+}
+#tab8{
+    background-color: #e9b31f;
+}
+table,
+td {
+    padding: 15px;
+}
+
+thead,
+tfoot {
+    background-color: #0b0d24;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #0b0d24, 0 0 5px #0b0d24;
+    height: 45px;
+}

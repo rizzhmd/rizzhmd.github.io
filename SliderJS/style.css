@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+#slider {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20%;
+}
+#slider img{
+    max-width: 100%;
+}
+#previous,
+#next {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+#previous {
+    left: 20%;
+}
+
+#next {
+    right: 20%;
+}
+
+#slider:hover #previous,
+#slider:hover #next {
+    background-color: burlywood;
+}

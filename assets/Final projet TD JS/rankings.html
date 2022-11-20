@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/styleRanking.css">
+    <link rel="stylesheet" href="asset/css/go.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- checrcher= local storage ou session storage -->
+    <div id="scoreDiv" >
+        <h1 id="highScore">Meilleurs scores</h1>
+    </div>
+    <div id="tableauScores">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="1">Utilisateur</th>
+                    <th colspan="1">Score</th>
+                    <th colspan="1">Classement maison</th>
+                    <th colspan="1">Nombre de parties</th>
+                    <th colspan="1">Score moyen par partie</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="tab1">
+                    <td>JeCcompterjuska100</td>
+                    <td>875</td>
+                    <td>1er</td>
+                    <td>200</td>
+                    <td>4.38</td>
+                </tr>
+                <tr id="tab2">
+                    <td>Papa</td>
+                    <td id="sco">871</td>
+                    <td>2nd</td>
+                    <td>257</td>
+                    <td>3.39</td>
+                </tr>
+                <tr id="tab3">
+                    <td>le Hamster</td>
+                    <td>824</td>
+                    <td>3ème</td>
+                    <td>175</td>
+                    <td>4.71</td>
+                </tr>
+                <tr id="tab4">
+                    <td>Maman</td>
+                    <td>668</td>
+                    <td>4</td>
+                    <td>239</td>
+                    <td>2.79</td>
+                </tr>
+                <tr id="tab5">
+                    <td>Tata</td>
+                    <td>661</td>
+                    <td>5</td>
+                    <td>199</td>
+                    <td>3.32</td>
+                </tr>
+                <tr id="tab6">
+                    <td>Papy</td>
+                    <td>455</td>
+                    <td>6</td>
+                    <td>300</td>
+                    <td>1.52</td>
+                </tr>
+                <tr id="tab7">
+                    <td>Le chat</td>
+                    <td>426</td>
+                    <td>7</td>
+                    <td>142</td>
+                    <td>3.00</td>
+                </tr>
+                <tr id="tab8">
+                    <td>Moi</td>
+                    <td id="sco">123</td>
+                    <td>8</td>
+                    <td id="gams">68</td>
+                    <td id="averag"></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+    <div id="btnReturn">
+    <a href="GO.html">
+        <div class="playBtn">
+            <input type="button" value="Retour à l'accueil" id="returnIndex" class="neonText">
+        </div>
+    </div>
+    </a>
+    <script src="asset/js/script.js"></script>
+</body>
+
+</html>

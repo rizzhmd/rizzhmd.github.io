@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)file:///C:/Users/rizzh/Downloads/go.html -->
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="asset/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="asset/css/go.css">
+    <link rel="stylesheet" href="asset/css/style-index.css">
+    <link rel="stylesheet" href="asset/css/style-end.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <title>HiHaMizu Pokémon</title>
+</head>
+
+<body>
+    <section id="index">
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+            <source src="asset/img/index.mp4" type="video/mp4">
+        </video>
+
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+            <h1 class="neonTitle">HI - HA - MIZU</h1>
+
+            <form action="">
+                <div class="choosename">
+                    <label for="firstname">Veuillez entrer votre pseudo :</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Georgette">
+                </div>
+                <p class="center">Veuillez choisir votre avatar :</p>
+                <div class="chooseavatar">
+
+                    <div class="radio-buttons">
+
+                        <label class="custom-radio">
+                            <input type="radio" name="radio" id="choice1" checked />
+                            <span class="radio-btn"><i class="las la-check neonText"></i>
+                                <div class="hobbies-icon">
+                                    <img id="avatarChoice1" value="choice1" src="asset/img/avatar1B.png" alt="">
+                                    <h3>AURORE</h3>
+                                </div>
+                            </span>
+                        </label>
+
+                        <label class="custom-radio">
+                            <input type="radio" name="radio" id="choice2" />
+                            <span class="radio-btn"><i class="las la-check neonText"></i>
+                                <div class="hobbies-icon">
+                                    <img id="avatarChoice2" value="choice2" src="asset/img/avatar2B.png" alt="">
+                                    <h3>MEWTWO</h3>
+                                </div>
+                            </span>
+                        </label>
+
+                        <label class="custom-radio">
+                            <input type="radio" name="radio" id="choice3" />
+                            <span class="radio-btn"><i class="las la-check neonText"></i>
+                                <div class="hobbies-icon">
+                                    <img id="avatarChoice3" value="choice3" src="asset/img/avatar3B.png" alt="">
+                                    <h3>LOUKA</h3>
+                                </div>
+                            </span>
+                        </label>
+
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="playBtn">
+                        <input type="button" value="JOUER" id="validPlay" class="neonText">
+                    </div>
+                </a>
+            </form>
+        </div>
+
+
+
+    </section>
+
+
+
+    <!--VERSUUUUUS-->
+
+
+
+
+    <section id="allSection">
+        <section id="versus">
+            <div id="parent">
+                <div class="name" id="nameAndLife">
+
+                    <div id="topLife">
+                        <span id="pseudo">
+                            <p id="namebase">Georgette</p>
+                            <p id="nameplayer"></p>
+                        </span>
+                    </div>
+                    <div class="fullLife" id="barre">
+                        <div id="pokeball"><img src="asset/img/pokeball.png" alt=""></div>
+
+                        <div class="life" id="life40"> </div>
+                        <div class="life" id="life30"> </div>
+                        <div class="life" id="life20"> </div>
+                        <div class="life" id="life10"> </div>
+                        <div class="life" id="life"> </div>
+
+                    </div>
+
+                </div>
+
+                <div class="name2" id="nameAndLife2">
+
+                    <div id="topLife2">
+                        <span id="pseudo2">
+                            <p id="pseudo2">Kokinard</p>
+                        </span>
+                    </div>
+                    <div class="fullLife2" id="barre2">
+
+                        <div class="life" id="life100"> </div>
+                        <div class="life" id="life90"> </div>
+                        <div class="life" id="life80"> </div>
+                        <div class="life" id="life70"> </div>
+                        <div class="life" id="life60"> </div>
+                        <div id="pokeball2"><img src="asset/img/pokeball.png" alt=""></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <section id="start">
+
+                <main>
+
+                    <div id="avatar">
+
+                        <div id="baseavatar"><img src="asset/img/avatar1B.png" alt=""></div>
+                        <div id="choiceavatar"></div>
+
+                    </div>
+                    <p id="vs">VS</p>
+                    <div id="avatarPc">
+
+                        <img src="asset/img/kokinardB.png" alt="">
+
+
+                    </div>
+                </main>
+
+
+                <div id="margField">
+                    <fieldset>
+                        <legend>Choisis ton pokémon</legend>
+
+                        <footer id="selectElements">
+                            <!-- Bouton FEU -->
+                            <div class="choice">
+                                <img src="asset/img/feu.png" alt="Feu">
+                                <button id="btnFeu">Feu</button>
+                            </div>
+                            <!-- Bouton FEUILLE -->
+                            <div class="choice">
+                                <img src="asset/img/feuille.png" alt="Feuille">
+                                <button id="btnFeuille">Feuille</button>
+                            </div>
+                            <!-- Bouton EAU -->
+                            <div class="choice">
+                                <img src="asset/img/eau.png" alt="Eau">
+                                <button id="btnEau">Eau</button>
+                            </div>
+
+                        </footer>
+
+                    </fieldset>
+                </div>
+
+            </section>
+
+        </section>
+
+        <!-- SECTION COMBAT GO -->
+
+        <section id="sectionGo">
+            <div id="gogo">
+                <div id="avatarL">
+                    <div id="baseavatarL"><img src="asset/img/avatar1B.png" alt=""></div>
+                    <div id="choiceavatarL"></div>
+                </div>
+                <p id="go">GO!</p>
+
+                <div id="avatarR">
+                    <img id="imgAvatarRgo1" class="all right" src="asset/img/kokinardB.png" alt="">
+                </div>
+            </div>
+
+
+            <div id="rowFight">
+                <div id="rowGo">
+            
+                    <!-- Choix JOUEUR -->
+                    <div id="avatarGo">
+            
+                    </div>
+                    <!-- Séparation -->
+                    <img id="eclair" src="asset/img/eclair.png">
+            
+                    <!-- Choix ORDINATEUR -->
+                    <div id="avatarGoPc">
+            
+                    </div>
+                </div>
+            </div>
+            <div id="buttonContinu">
+                <button id="mancheSuivante">3... 2... 1... GO </button>
+                <button id="next">Manche suivante</button>
+            </div>
+
+        </section>
+        <!-- SECTION RESULTATS -->
+<div id="youwin">
+    <video autoplay muted loop id="myVideo">
+        <source src="asset/img/victoire.mp4" type="video/mp4">
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+        <p class="neonTitle titleEnd">VICTOIRE!</p>
+        <div class="sectionBtn">
+            <a href="">
+                <div class="replayBtn" type="button" id="validReplay">
+                    <img src="asset/img/restart.png" class="iconsBtn">
+                    <p class="neonText"> REJOUER</p>
+                </div>
+            </a>
+            <a href="rankings.html">
+                <div class="rankingsBtn" type="button" id="validRankings">
+                    <p class="neonText">RESULTATS </p>
+                    <img src="asset/img/ranking.png" class="iconsBtn">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="youloose">
+    <video autoplay muted loop id="myVideo">
+        <source src="asset/img/defaite.mp4" type="video/mp4">
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+        <p class="neonTitle titleEnd">DEFAITE!</p>
+        <div class="sectionBtn">
+            <a href="">
+                <div class="replayBtn" type="button" id="validReplay">
+                    <img src="asset/img/restart.png" class="iconsBtn">
+                    <p class="neonText"> REJOUER</p>
+                </div>
+            </a>
+            <a href="rankings.html">
+                <div class="rankingsBtn" type="button" id="validRankings">
+                    <p class="neonText">RESULTATS </p>
+                    <img src="asset/img/ranking.png" class="iconsBtn">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+    </section>
+    <script src="https://kit.fontawesome.com/f402c3d386.js" crossorigin="anonymous"></script>
+    <script src="asset/js/script.js"></script>
+
+</body>
+
+</html>

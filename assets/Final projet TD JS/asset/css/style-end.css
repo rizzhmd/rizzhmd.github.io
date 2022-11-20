@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .content {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .neonText {
+    color: rgb(87, 87, 87);
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #490c52,
+        0 0 82px #490c52,
+        0 0 92px #490c52,
+        0 0 102px #490c52,
+        0 0 151px #490c52;
+  }
+
+.neonTitle {
+  color: #fff;
+  -webkit-animation:pulse 1.5s ease-in-out infinite alternate;
+  -webkit-backface-visibility: hidden;
+}
+
+  .titleEnd {
+    font-size: 100px;
+    text-align: center;
+    padding-top: 18%;
+  }
+
+  @-webkit-keyframes pulse {
+    from {
+      text-shadow: 0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #9e66a7,
+      0 0 82px #490c52,
+      0 0 92px #9e66a7,
+      0 0 102px #490c52,
+      0 0 151px #9e66a7;
+    }
+    to {
+      text-shadow: 0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #e9b31f,
+      0 0 82px #85650d,
+      0 0 92px #e9b31f,
+      0 0 102px #85650d,
+      0 0 151px #e9b31f;
+    }
+  }
+
+
+  p {
+    font-size: 15px;
+  }
+
+  .sectionBtn {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0 500px;
+      margin-top: 80px;
+  }
+
+  .replayBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#validReplay {
+    width: 70%;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    color: #0B0D24;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#validReplay:hover {
+    color: rgb(41, 18, 71);
+    background-color: #bebebe;
+}
+
+.rankingsBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#validRankings {
+    width: 70%;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    color: #0B0D24;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#validRankings:hover {
+    color: rgb(41, 18, 71);
+    background-color: #bebebe;
+}
+
+.iconsBtn {
+    width: 20%;
+
+}
+
+a {
+  text-decoration: none;
+}
